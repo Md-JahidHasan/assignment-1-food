@@ -1,0 +1,68 @@
+body{
+font-family: 'Poppins', sans-serif;
+margin: 0;
+}
+h1{
+    font-size: 50px;
+}
+#headline {
+    display: flex;
+    background: rgb(128, 192, 153);
+}
+#headline a{
+    color: floralwhite;
+    font-size: 20px;
+    background: orangered;
+    display: flex;
+    margin-left: 9%;
+    padding: 30px 60px;
+    text-decoration: none;
+    border-radius: 10px;
+    border-bottom:rgb(37, 13, 13) solid 5px;
+    border-left:rgb(37, 13, 13) solid;
+}
+#firstbanner{
+    display: flex;
+
+    background-image: url(bg.jpeg);
+background-repeat: no-repeat;
+background-size: cover;
+padding-top: 20px;
+}
+.halfsection{
+width: 50%;
+padding: 8%;
+}
+h1{
+    font: weight 1100px;
+    font: 7px;
+}
+.halfsection img{
+    width: 120%;
+    margin-right: 70px;
+}
+.foodorder{
+ text-decoration: none;
+ background-color: brown;
+ padding: 10px 40px;
+}
+#secondbanner{
+
+    background-image: url(greeb.jpeg);
+    background-size: cover;
+    display: flex;
+}
+#recipies{
+    text-align: center;
+}
+.last{
+display: flex;
+width: 28%;
+}
+.last-banner{
+    margin: 5%;
+    padding: 2%;
+}
+.last img{
+block-size: 300px;
+}
