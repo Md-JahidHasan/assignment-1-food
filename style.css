@@ -6,6 +6,7 @@ margin: 0;
     display: flex;
     background: rgb(128, 192, 153);
     justify-content: space-around;
+    padding: 20px;
 }
 #headline a{
     color: floralwhite;
@@ -53,6 +54,7 @@ padding: 8%;
 .last{
 display: flex;
 width: 30%;
+justify-content: space-between;
 }
 .last-banner{
     margin-left: 10% ;
