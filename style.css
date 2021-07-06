@@ -87,7 +87,7 @@ margin: 0px 15px;
 .image{
     border: indigo solid 1px;
     border-radius: 10px;
-    width: 300px;
+    width: auto;
     text-align: center;
 
 }
