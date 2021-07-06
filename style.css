@@ -53,24 +53,30 @@ padding: 8%;
 
 .last{
 display: flex;
-width: 30%;
-justify-content: space-between;
+/* width: 100%; */
+align-items: center;
+justify-content: center;
+margin: 0px 15px;
 }
 .last-banner{
-    margin-left: 10% ;
+    padding: 5px;
+    /* margin-left: 10% ;
     margin-right: 9%;
     margin-bottom: 40%;
     margin-top: 10%;
-    padding-left: 15px;
+    padding-left: 15px; */
+    width: 30%;
+    height: 600px;
     background-color: rgb(235, 221, 202);
     box-shadow: 10px 10px 30px black;
     border-radius: 10px;
-    justify-content: space-around;
+    text-align: center;
+    margin: 20px 10px;
 }
 .last img{
     width: 300px;
-    margin-left: 5px;
-    margin-right: 10px;
+    /* margin-left: 5px;
+    margin-right: 5px; */
     margin-top: 10px;
     height: 300px;
     border: solid black;
@@ -82,6 +88,7 @@ justify-content: space-between;
     border: indigo solid 1px;
     border-radius: 10px;
     width: 300px;
+    text-align: center;
 
 }
 #recipi-banner {
