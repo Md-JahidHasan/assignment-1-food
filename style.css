@@ -5,13 +5,13 @@ margin: 0;
 #headline {
     display: flex;
     background: rgb(128, 192, 153);
+    justify-content: space-around;
 }
 #headline a{
     color: floralwhite;
     font-size: 20px;
-    background: orangered;
-    display: flex;
-    margin-left: 9%;
+    background-color: orangered;
+    /* margin-left: 9%; */
     padding: 30px 60px;
     text-decoration: none;
     border-radius: 10px;
@@ -37,8 +37,9 @@ padding: 8%;
 }
 .foodorder{
  text-decoration: none;
- background-color:limegreen;
+ background-image: linear-gradient(green, orangered);
  padding: 10px 40px;
+ box-shadow:10px 20px 20px darkslategrey;
  color: snow;
  border-radius: 20px;
 }
@@ -55,12 +56,14 @@ width: 30%;
 }
 .last-banner{
     margin-left: 10% ;
-    margin-right: 15%;
-    margin-bottom: 30%;
+    margin-right: 9%;
+    margin-bottom: 40%;
+    margin-top: 10%;
     padding-left: 15px;
-    background-color: blanchedalmond;
-    box-shadow: 10px 10px 30px grey;
+    background-color: rgb(235, 221, 202);
+    box-shadow: 10px 10px 30px black;
     border-radius: 10px;
+    justify-content: space-around;
 }
 .last img{
     width: 300px;
@@ -89,6 +92,7 @@ margin-top: 0px;
 footer{
     background-color: darkslategray;
     text-align: center;
+    padding: 30px;
 
 }
 footer h2{
@@ -100,4 +104,7 @@ h1{
 }
 #thereare{
     text-align: center;
+}
+#margin{
+    margin-top: 10%;
 }
